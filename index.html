@@ -88,62 +88,64 @@
     </div>
     <!-- .Jumbotron-->
 
-
     <section id="section-intro" class="section-wrapper about-event gray-bg ">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
                     <p class="lead">
-Deep learning techniques have advanced rapidly in recent years, leading to significant progress in pre-trained and fine-tuned large-scale AI models. For example, in the natural language processing domain, the traditional "pre-train, fine-tune" paradigm is shifting towards the "pre-train, prompt, and predict" paradigm, which has achieved great success on many tasks across different application domains such as ChatGPT/BARD for Conversational AI and P5 for a unified recommendation system. Moreover, there has been a growing interest in models that combine vision and language modalities (vision-language models) which are applied to tasks like Visual Captioning/Generation.		   
-		    </p>    
-                    <p class="lead" >
-Considering the recent technological revolution, it is essential to have a workshop at the KDD conference that emphasizes these paradigm shifts and highlights the paradigms with the potential to solve different tasks. This workshop will provide a platform for academic and industrial researchers to showcase their latest work, share research ideas, discuss various challenges, and identify areas where further research is needed in pre-training, fine-tuning, and prompt-learning methods for large-scale AI models. The workshop will also foster the development of a strong research community focused on solving challenges related to large-scale AI models, providing superior and impactful strategies that can change people’s lives in the future.		
-		    </p>  
-		    
-		    <p class="lead">
-            
-We invite submissions of long (eight papers) and short (four pages) papers, representing original research, preliminary research results, and proposals for new work in academia or industry. All submissions will be single-blind and will be peer-reviewed by an international program committee of researchers and industrial professionals and experts. 
-
-Accepted submissions will be required to be presented at the workshop and will be published in a dedicated workshop proceeding by the workshop organisers. 
-
-
-		</p>    
+                        Foundation models and large language models has produced a remarkable result in various applications such as Chatbot design, Natural Language Interaction, Text Summarization and etc. Transformer a key element under the success of FMs and LLMs has emerged as a center of many research development. The workshop invites researchers and practitioners to submit their original work to the Workshop on Foundation Models and Large Language Models. This workshop aims to bring together experts from academia and industry to discuss the latest developments, challenges, and opportunities in the field of foundation models and large language models. 
+		            </p>    
                <p class="lead" >
-			Topics of interest in this workshop include but are not limited to: 
-		<p> <b> Pre-training:</b> </p>
-		<p>- Improvements in pre-training:
-supervised pre-training, self-supervised pre-training with various auxiliary tasks, meta-learning, prompt-based Learning, multi-modal pre-training etc. </p>
-		<p>- Novel pre-training methods to maximize generalization </p>
-		<p>- Model selection for pre-trained models </p>
-		<p>- Pre-training for various application domains, such as computer vision, natural language processing, robotics, etc </p>
-		<p>  <b> Fine-tuning:</b></p>
-		<p>- Domain/task adaptive fine-tuning </p>
-		<p>- Intermediate-task, multi-task, self-supervised, MLM fine-tuning</p>
-		<p>- Parameter-efficient fine-tuning: sparse parameter tuning, pruning</p>
-		<p>- Text-to-Text, Text-to-image, Image-to-text, multi-modal fine-tuning, effectively using large autoregressive pre-trained models</p>
-		<p>- Fine-tuning for various application domains, such as computer vision, natural language processing, robotics, etc</p>    
-		<p> <b> Prompted/Instruction-based:</b></p>
-		<p>- Manual Template Engineering</p>
-		<p>- Automated Template Learning</p>
-		<p>- Multi-Prompt Learning; Multi-tasks instruction tuning </p>		
-		<p>- Instruction tuning with HF/RLHF</p>
-		<p>- chain-of-thought (CoT) prompting</p>
-		<p> <b> Performance:</b></p>
-		<p>- Model compression techniques </p>
-		<p>- Large-scale model deployments</p>
-		<p>- Efficient and effective training/inference  </p>		
-		<p>- Empirical analysis of various pre-training and fine-tuning methods</p>
-		<p>- Generalization bounds of different pre-training and fine-tuning methods</p>
-		<p>- Stability, sparsity and robustness strategies</p>
-		<p> <b> Downstream tasks of large-scale models:</b></p>    
-		<p>- NLP models for Text Generation,Text Summarization,Question Answering and other downstream tasks </p>
-		 <p>-CV models for Image Captioning, Semantic Segmentation,Object Tracking and other downstream tasks </p>
-	        <p> <b> Applications powered by large-scale models:</b></p> 
-		<p>-Conversational AI, Conversational Chatbots</p>
-		<p>- Enhanced Web Search, Search Engine</p> 
-		<p>- Unified, Personalized next generation recommender systems</p> 
-			
-			 
+                Topics of interest for the workshop include, but are not limited to: 
+
+                <h3>Model Training and Optimization:</h3>
+                <ul>
+                    <li>Techniques to deal with Hallucinations</li>
+                    <li>Training data for LLMs</li>
+                    <li>Efficient and Stable training of LLMs</li>
+                    <li>Efficient Tuning Methods</li>
+                    <li>Scalable approaches for distributed model training</li>
+                    <li>Middleware for scale out data preparation for LLM training</li>
+                    <li>Workflow orchestration for end-to-end LLM life cycle</li>
+                    <li>Resource management for compute and energy efficient model training</li>
+                    <li>Masking techniques</li>
+                    <li>Representation learning</li>
+                </ul>
+
+                <h3>Model Utilization and Integration:</h3>
+                <ul>
+                    <li>Using LLMs effectively as tools for Reinforcement Learning</li>
+                    <li>Enhancing LLM capabilities by using external tools (Search engines, calculators, etc)</li>
+                    <li>Visual Prompt Tuning and in-context learning</li>
+                    <li>Enable easy experimentation with high utilization to train foundational models in the cloud.</li>
+                    <li>Strategies to scale resources for training/fine-tuning foundational models</li>
+                    <li>Instruction tuning including generation of instruction tuning data.</li>
+                    <li>Parallel training: data model tensor (attention and weights)</li>
+                    <li>Distributed workflows for data cleansing and model usage (Langchain)</li>
+                    <li>Next arch such as sparse transformers</li>
+                    <li>Principled AI</li>
+                </ul>
+
+                <h3>Application-Specific Models:</h3>
+                <ul>
+                    <li>Math LLM</li>
+                    <li>MultiModal Foundation Models</li>
+                    <li>Trustworthy Foundation Models</li>
+                    <li>Large-scale Visual Foundation Models</li>
+                    <li>Timeseries foundation models for forecasting, prediction and control</li>
+                </ul>
+
+                <h3>Knowledge Incorporation and Adaptation:</h3>
+                <ul>
+                    <li>Approaches to deal with knowledge recency to effectively update knowledge within LLMs.</li>
+                    <li>Incorporating domain knowledge</li>
+                </ul>
+
+                <h3>Evaluation and Benchmarking:</h3>
+                <ul>
+                    <li>Additional Benchmarks to fill gap between human and automatic reference-based evaluation</li>
+                </ul>
+
                 </div>
             </div>
         </div>
